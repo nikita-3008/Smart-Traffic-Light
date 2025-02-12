@@ -2,27 +2,27 @@
 Arduino-based Smart Traffic Light with Pedestrian &amp; Vehicle Sensing
 ---
 
-# **Smart Traffic Light System using Arduino**  
+# Smart Traffic Light System using Arduino  
 
-## **Overview**  
+## Overview  
 This project implements a **Smart Traffic Light System** using an **Arduino Uno**, LEDs, a push button for pedestrian crossing, and an ultrasonic sensor for vehicle detection. The system aims to optimize traffic control by ensuring pedestrian safety and reducing unnecessary power usage.  
 
-## **Project Features**  
-### **Basic Traffic Light System **  
-- Simulates a **real traffic light cycle**: **Green → Yellow → Red → Green**.  
-- A **push button** allows pedestrians to stop traffic by turning the light Red for safe crossing.  
+## Project Features  
+### Basic Traffic Light System   
+- Simulates a real traffic light cycle: Green → Yellow → Red → Green  
+- A push button allows pedestrians to stop traffic by turning the light Red for safe crossing.  
 
-### **Smart Traffic Light System **  
+### Smart Traffic Light System   
 - **Ultrasonic Sensor (HC-SR04)** detects vehicles at the signal.  
 - If no vehicle is detected for **30 seconds**, the light remains **Red** to save power.  
 - If a vehicle is detected, the normal traffic cycle resumes.  
 
-## **Required Components**  
-- **Arduino Uno**  
-- **Red, Yellow, Green LEDs**  
-- **3 × 220Ω resistors** (for LEDs)  
-- **Push button** (for pedestrian crossing)  
-- **10kΩ resistor** (for push button)  
+## Required Components  
+- Arduino Uno  
+- Red, Yellow, Green LEDs  
+- 3 × 220Ω resistors (for LEDs)  
+- Push button (for pedestrian crossing)  
+- 10kΩ resistor (for push button)  
 - **Ultrasonic Sensor (HC-SR04)** (for vehicle detection)  
 - **Breadboard & jumper wires**  
 
